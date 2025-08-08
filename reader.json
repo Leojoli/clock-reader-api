@@ -1,24 +1,26 @@
-
-[
-  {
-    "user": {
+{
+  "users": [
+    {
       "id": "user123",
       "email": "usuario@email.com",
-      "password": "senha_segura_aqui",
-       "client": {
+      "password": "senha_segura_aqui"
+    }
+  ],
+  "clients": [
+    {
       "id": "client456",
-      "client": "Nome do Cliente"
-    },
-      "read": [
-        {
-        "id": "reader789",
-        "id_client":"client456",
-        "reader": "Código de Leitura 1",
-        "client": "Nome do Cliente",
-        "date": "2025-08-08",
-        "hour": "10:30"
-      }
-      ]
-    }   
-  }
-]
+      "id_user": "user123", 
+      "name": "Nome do Cliente"
+    }
+  ],
+  "reads": [
+    {
+      "id": "reader789",
+      "user_id": "user123",
+      "client_id": "client456",
+      "code": "Código de Leitura 1",
+      "date": "2025-08-08",
+      "hour": "10:30"
+    }
+  ]
+}
