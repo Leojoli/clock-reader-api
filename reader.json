@@ -1,1 +1,21 @@
 
+[
+  {
+    "user": {
+      "id": "user123",
+      "email": "usuario@email.com",
+      "password": "senha_segura_aqui",
+       "client": {
+      "id": "client456",
+      "client": "Nome do Cliente"
+    },
+      "read": {
+        "id": "reader789",
+        "reader": "Código de Leitura 1",
+        "client": "Nome do Cliente",
+        "date": "2025-08-08",
+        "hour": "10:30"
+      }
+    }   
+  }
+]
