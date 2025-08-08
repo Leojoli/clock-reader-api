@@ -9,13 +9,16 @@
       "id": "client456",
       "client": "Nome do Cliente"
     },
-      "read": {
+      "read": [
+        {
         "id": "reader789",
+        "id_client":"client456",
         "reader": "Código de Leitura 1",
         "client": "Nome do Cliente",
         "date": "2025-08-08",
         "hour": "10:30"
       }
+      ]
     }   
   }
 ]
